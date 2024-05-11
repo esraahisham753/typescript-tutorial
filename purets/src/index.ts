@@ -1,2 +1,6 @@
-console.log("Typescript goes here still");
-console.log("Typescript is amazing");
+class User {
+    constructor(email, name) {
+        this.email = email;
+        this.name = name;
+    }
+}
